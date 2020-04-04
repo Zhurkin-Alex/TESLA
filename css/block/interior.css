@@ -1,0 +1,22 @@
+.interior {
+  margin-bottom: 100px;
+}
+.interior__img {
+  margin-bottom: 100px;
+}
+.interior__text {
+  display: flex;
+  justify-content: space-around;
+}
+.interior__text-left,
+.interior__text-right {
+  text-align: left;
+  padding: 34px 17px 0 105px;
+  position: relative;
+}
+.interior__box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #b70021;
+}

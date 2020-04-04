@@ -1,0 +1,31 @@
+footer {
+  background: #690102;
+  padding: 83px 0 20px;
+}
+.footer__btn {
+  display: flex;
+}
+.footer__item:before {
+  content: "|";
+  margin: 0 12px;
+}
+.footer__item-first:before {
+  content: none;
+}
+.footer__btn-touch {
+  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 29px 60px;
+  margin: 0 auto 83px;
+  transition: all 0.5s;
+}
+.footer__items {
+  display: flex;
+  justify-content: center;
+}
+.footer__items li {
+  list-style-type: none;
+}
+.footer__btn-touch:hover {
+    background: #770302;
+  }
